@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    min-width: 1340px;
+    text-align: center;
+  }
+
+/* ============================START MAIN AREA==================================== */
+.button{
+  margin-top: 5rem;
+}
+
+.ios-btn{
+  padding: 1rem 2rem;
+  background-color: hsl(171, 66%, 44%);
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px hsl(171, 68%, 37%);
+}
+
+.mac-btn{
+  padding: 1rem 2rem;
+  background-color: hsl(233, 100%, 69%);
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  margin-left: 1rem;
+  box-shadow: 2px 2px 2px 2px hsl(233, 93%, 61%);
+}
+/* ============================START HEADER AREA================================== */
+.head{
+  background-image: url(./images/bg-header-desktop.png);
+  background-color: white;
+  align-items: center;
+  text-align: center;
+}
+
+.logo{
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+/* ============================END HEADER AREA================================== */
+/* ===========================START ONE SECTION AREA=================================== */
+#one{
+  margin-top: 2rem;
+  padding: 1rem 15rem;
+}
+.one-h1{
+  font-size: 3rem;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+.one-para{
+  font-size: 1.2rem;
+  font-family: "Bai Jamjuree";
+  font-size: 400;
+  color: hsl(201, 11%, 66%);
+  margin-top: 1rem;
+  padding: 0rem 5rem;
+  line-height: 1.8rem;
+}
+
+/* ===========================END ONE SECTION AREA=================================== */
+/* ===========================START TWO SECTION AREA=================================== */
+#two{
+  margin-top: 8rem;
+  padding: 1rem 15rem;
+}
+
+.two-h2{
+  font-size: 2rem;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+.two-para{
+  font-size: 1.2rem;
+  font-family: "Bai Jamjuree";
+  font-size: 400;
+  color: hsl(201, 11%, 66%);
+  margin-top: 1rem;
+  padding: 0rem 4rem;
+  line-height: 1.8rem;
+}
+/* ===========================END TWO SECTION AREA=================================== */
+/* ===========================START THREE SECTION AREA=================================== */
+#three{
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.three-img{
+  margin-left: -40px;
+}
+
+.three-div{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 4rem;
+  text-align: start;
+  margin-left: 6rem;
+}
+
+.three-h3{
+  font-size: 1.5rem;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+.three-para{
+  font-size: 1.2rem;
+  font-family: "Bai Jamjuree";
+  font-size: 400;
+  color: hsl(201, 11%, 66%);
+  margin-top: 1rem;
+  width: 420px;
+  line-height: 1.8rem;
+}
+/* ===========================END THREE SECTION AREA=================================== */
+/* ===========================START FOUR SECTION AREA=================================== */
+#four{
+  margin-top: 8rem;
+  padding: 1rem 15rem;
+}
+
+.four-h2{
+  font-size: 2rem;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+.four-para{
+  font-size: 1.2rem;
+  font-family: "Bai Jamjuree";
+  font-size: 400;
+  color: hsl(201, 11%, 66%);
+  margin-top: 1rem;
+  padding: 0rem 4rem;
+  line-height: 1.8rem;
+}
+
+.four-img{
+  margin-top: 8rem;
+}
+/* ===========================END FOUR SECTION AREA=================================== */
+/* ===========================START FIVE SECTION AREA=================================== */
+#five{
+  margin-top: 8rem;
+}
+
+.five-h2{
+  font-size: 2rem;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+.five-para{
+  font-size: 1.2rem;
+  font-family: "Bai Jamjuree";
+  font-size: 400;
+  color: hsl(201, 11%, 66%);
+  margin-top: 1rem;
+}
+
+.five-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.five-h4{
+  font-size: 1.5rem;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  margin-top: 3rem;
+}
+
+.five-para1{
+  font-size: 1.1rem;
+  font-family: "Bai Jamjuree";
+  font-size: 400;
+  color: hsl(201, 11%, 66%);
+  margin-top: 1rem;
+  width: 390px;
+  line-height: 1.8rem;
+}
+
+/* ===========================END FIVE SECTION AREA=================================== */
+/* ===========================START SIX SECTION AREA=================================== */
+#six{
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/* ===========================END SIX SECTION AREA=================================== */
+/* ===========================START SEVEN SECTION AREA=================================== */
+#seven{
+  margin-top: 8rem;
+  padding: 1rem 15rem;
+}
+
+.seven-h2{
+  font-size: 2rem;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+.seven-para{
+  font-size: 1.2rem;
+  font-family: "Bai Jamjuree";
+  font-size: 400;
+  color: hsl(201, 11%, 66%);
+  margin-top: 1rem;
+  padding: 0rem 4rem;
+  line-height: 1.8rem;
+}
+
+/* ===========================END SEVEN SECTION AREA=================================== */
+/* ===========================START EIGHT SECTION AREA=================================== */
+#eight{
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: hsla(202, 11%, 66%, 0.09);
+  align-items: center;
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
+.eight-logo{
+  height: 40px;
+}
+
+.eight-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  text-align: start;
+}
+
+.eight-h5{
+  font-size: 1.1rem;
+  font-family: "Bai Jamjuree";
+  font-size: 400;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.8rem;
+  cursor: pointer;
+}
+
+.eight-h5:hover{
+  color: hsl(171, 66%, 44%);
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.icon{
+  cursor: pointer;
+}
+
+.icon:hover{
+  color: hsl(171, 66%, 44%);
+}
+/* ===========================END EIGHT SECTION AREA=================================== */
+/* ============================END MAIN AREA==================================== */
+/* =============================START FOOTER  AREA=========================== */
+.foot {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(240, 10%, 16%);
+  }
+  
+  .foot a {
+    text-decoration: none;
+    color: hsl(39, 100%, 56%);
+  }
+  
+  .foot a:hover {
+    color: hsl(300, 69%, 71%);
+  }
+  /* =============================END FOOTER  AREA=========================== */
+  /* ============================START MEDIA QUERY=========================== */
+  @media screen and (max-width:375px) {
+    body{
+      min-width: 375px;
+    }
+
+    .head{
+      background-image: url(./images/bg-header-mobile.png);
+    }
+
+    #one, #two, #three, #four, #five, #six, #seven , #eight{
+      padding: 1rem;
+    }
+
+    .button{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .mac-btn{
+      margin-left: 0rem;
+    }
+
+    #three, #six,.five-div, #eight{
+      flex-direction: column;
+      gap: 5rem;
+    }
+
+    .one-h1{
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+
+    .one-para, .two-para, .four-para, .seven-para{
+      padding: 0rem;
+      font-size: 1rem;
+    }
+
+    .eight-div{
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .four-img, .three-img{
+      width: 100%;
+    }
+
+    .three-div{
+      margin-left: 0rem;
+    }
+
+    .three-para, .five-para1{
+      width: 90%;
+      font-size: 1rem;
+    }
+
+    .three-img{
+      margin-left: 0px;
+    }
+
+    .three-div{
+      text-align: center;
+    }
+
+    #six{
+      align-items: center;
+    }
+
+    .six-img{
+      width: 50%;
+    }
+
+    .social{
+      margin-bottom: 2rem;
+    }
+
+    h2, h3{
+      line-height: 2.5rem;
+    }
+  }
+  /* ============================END MEDIA QUERY=========================== */
