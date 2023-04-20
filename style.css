@@ -193,7 +193,7 @@
   margin-top: 5rem;
 }
 
-.five-h4{
+.five-h3{
   font-size: 1.5rem;
   font-family: "Bai Jamjuree";
   font-weight: 600;
@@ -267,7 +267,7 @@
   text-align: start;
 }
 
-.eight-h5{
+.eight-h3{
   font-size: 1.1rem;
   font-family: "Bai Jamjuree";
   font-size: 400;
@@ -276,7 +276,7 @@
   cursor: pointer;
 }
 
-.eight-h5:hover{
+.eight-h3:hover{
   color: hsl(171, 66%, 44%);
 }
 
